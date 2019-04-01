@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: avenir !important;
+}
+
+table {
+  height: 200px !important;
+  width: 200px !important;
+  align-self: center;
+}
+
+tr {
+  background: blue;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+td:hover {
+  /* font-size: 22px; */
+  /* background: white; */
+  /* color: blue; */
+  background: rgb(21, 21, 22);
+}
